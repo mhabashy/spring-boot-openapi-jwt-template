@@ -1,6 +1,7 @@
 # Spring Boot Starter Template with OpenAPI and JWT Auth
 
 This is a starter template for a Spring Boot application that integrates OpenAPI for API documentation and JWT (JSON Web Token) for authentication. The project is containerized using Docker Compose, which starts a PostgreSQL database instance for data persistence.
+Based it on Clinic Event signup idea.
 
 ![Alt text](https://raw.githubusercontent.com/mhabashy/spring-boot-openapi-jwt-template/main/demo.png "Optional title")
 
