@@ -2,6 +2,9 @@
 
 This is a starter template for a Spring Boot application that integrates OpenAPI for API documentation and JWT (JSON Web Token) for authentication. The project is containerized using Docker Compose, which starts a PostgreSQL database instance for data persistence.
 
+![Alt text](https://raw.githubusercontent.com/mhabashy/spring-boot-openapi-jwt-template/main/demo.png "Optional title")
+
+
 ## Features
 
 - **Spring Boot**: Java-based framework for creating standalone, production-grade applications.
@@ -35,7 +38,6 @@ Follow these steps to set up and run the project:
 3. **Build the Application**
 
     ```bash
-    Copy code
     mvn clean package
     ```
 
