@@ -35,26 +35,20 @@ Follow these steps to set up and run the project:
     cd spring-boot-openapi-jwt-template
     ```
 
-3. **Build the Application**
-
-    ```bash
-    mvn clean package
-    ```
-
-4. **Start Docker Compose**
+3. **Start Docker Compose**
 
     ```bash
     docker-compose up -d
     ```
  **This will start the PostgreSQL database container.**
 
-5. **Run the Application**
+4. **Run the Application**
 
     ```bash
     java -jar target/spring-boot-openapi-jwt-template-0.0.1-SNAPSHOT.jar
     ```
    
-6. **Access OpenAPI Documentation**
+5. **Access OpenAPI Documentation**
 Open your web browser and navigate to:
 
     ```bash
