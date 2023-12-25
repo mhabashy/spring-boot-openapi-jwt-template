@@ -17,7 +17,7 @@ This is a starter template for a Spring Boot application that integrates OpenAPI
 Ensure you have the following installed on your local machine:
 
 - Java 11 or higher
-- Maven
+- Gradle
 - Docker
 - Docker Compose
 
