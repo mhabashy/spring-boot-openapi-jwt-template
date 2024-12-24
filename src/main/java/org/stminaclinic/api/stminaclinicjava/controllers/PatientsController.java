@@ -10,7 +10,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.stminaclinic.api.stminaclinicjava.dto.PatientDto;
 import org.stminaclinic.api.stminaclinicjava.models.CreateObj;
-import org.stminaclinic.api.stminaclinicjava.models.Patients;
 import org.stminaclinic.api.stminaclinicjava.services.PatientService;
 
 import jakarta.websocket.server.PathParam;

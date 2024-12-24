@@ -16,12 +16,10 @@ import java.util.stream.Collectors;
 public class ClinicEventServiceImpl implements ClinicEventService {
 
     private ClinicEventsRepository clinicEventsRepository;
-    private PatientRepository patientRepository;
 
     @Autowired
-    public ClinicEventServiceImpl(ClinicEventsRepository clinicEventsRepository, PatientRepository patientRepository) {
+    public ClinicEventServiceImpl(ClinicEventsRepository clinicEventsRepository) {
         this.clinicEventsRepository = clinicEventsRepository;
-        this.patientRepository = patientRepository;
     }
 
     @Override
